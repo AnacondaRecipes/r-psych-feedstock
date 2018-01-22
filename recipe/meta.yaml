@@ -10,8 +10,8 @@ package:
 source:
   fn: psych_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/psych_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/psych/psych_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/psych_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/psych/psych_{{ version }}.tar.gz
   sha256: f328ea602e22b0e7e5f310a8d19f305d8e0a3a86040cdfb64863b68b56d55135
 
 
